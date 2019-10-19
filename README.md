@@ -1,6 +1,9 @@
 # Python_Coding
 Python Coding related resources
 
+Python for SAS Users
+http://nbviewer.jupyter.org/github/RandyBetancourt/PythonForSASUsers/tree/master/
+
 Python vs. SAS
 https://github.com/asnr/sas-to-python
 
