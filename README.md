@@ -16,5 +16,11 @@ import sys
 !{sys.executable} -m pip install xyz
   - xyz could be "numpy" or "shap"
   
-  
+# Missing Value Treatments
+
+## Treating the missing values of education as a separate category
+data['education'] = data['education'].replace(np.NaN, 'NA')
+ 
+## Treating the missing values of previous year rating as 0
+data['previous_year_rating'] = data['previous_year_rating'].fillna(0)
 
